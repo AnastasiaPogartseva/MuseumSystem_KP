@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f430b636a46d40de8dda54b132440d2d" Name="Diagram1">
+        <EntityTypeShape EntityType="MuseumTechDBModel.Categories" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.Employees" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.Excursions" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.ExcursionVisitors" Width="1.5" PointX="7.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.ExhibitionExponats" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.Exhibitions" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.Exponats" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.Visitors" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseumTechDBModel.VisitorTypes" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Exponats__Catego__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Excursion__Creat__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Excursion__Emplo__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Exhibitio__Creat__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Exponats__Create__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Excursion__Excur__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Excursion__Exhib__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Excursion__Visit__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Exhibitio__Exhib__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Exhibitio__Expon__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseumTechDBModel.FK__Visitors__TypeID__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="MuseumSystem.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MuseumSystem"
+        mc:Ignorable="d"
+        Title="Вход в систему" Height="420" Width="350"
+        MinHeight="420" MinWidth="350">
+    <Grid Background="#2b96d1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Музей техникума" FontSize="28" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Text="Информационная система" FontSize="16" Foreground="White" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+        </StackPanel>
+        
+        <Border Grid.Row="1" Background="White" CornerRadius="10" Margin="30,10,30,0" Padding="20" Grid.RowSpan="2">
+            <StackPanel>
+                <TextBlock Text="Авторизация" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <TextBlock Text="Логин:" Style="{StaticResource LabelStyle}"/>
+                <TextBox x:Name="txtLogin" Style="{StaticResource TextBoxStyle}"/>
+
+                <TextBlock Text="Пароль:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+                <PasswordBox x:Name="txtPassword" Height="30" Margin="5"/>
+                <Button x:Name="BtnLogin" Content="Войти" Style="{StaticResource PrimaryButton}" Click="BtnLogin_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
